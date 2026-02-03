@@ -2,8 +2,9 @@
 #define trigPin 9
 #define echoPin 10
 void setup() {
-    pinMode(triPin, OUTPUT);
+    pinMode(trigPin, OUTPUT);
     pinMode(echoPin, INPUT);
+    Serial.begin(9600);
 }
 
 void loop() {
